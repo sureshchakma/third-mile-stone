@@ -1,4 +1,4 @@
-//#Fisrt question to answer....#feetToMile
+//#Fisrt problem to solved the answer....#feetToMile
 
 function feetToMile(feet){
     var mile= feet / 5280  // 1 mile =5280 feets;
@@ -9,7 +9,7 @@ var result = feetToMile(20000);
 
 console.log(result);
 
-//#second question to answer......#woodCalculator
+//#second problem to solve the answer......#woodCalculator
 function woodCalculator(chair, table, bed){
     var chairForWood= chair * 1;
     var tableForWood= table * 3;
@@ -24,7 +24,7 @@ var totalQubitWood= woodCalculator(5, 6, 4);
 
 console.log(totalQubitWood);
 
-//#third question to answer...#brickCalculator;
+//#third problem to solve the answer...#brickCalculator;
 function brickCalculator(floor){
     
     if(floor <=10){
@@ -49,7 +49,7 @@ console.log(output);
 
 
 
-//#4th question to answer..... #tinyFriend
+//#4th problem to solve answer..... #tinyFriend
 function tinyFriend(names){
     var smallName=names[0];
 
