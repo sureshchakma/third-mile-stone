@@ -29,16 +29,16 @@ function brickCalculator(floor){
     
     if(floor <=10){
         var building1= floor * 15;
-        var bricksCount=building1 * 1000;
+        var bricksCount= building1 * 1000;
     }
 
     else if(floor <=20){
-        var building2 =floor * 12;
-        var bricksCount =building2 * 1000;
+        var building2 = floor * 12;
+        var bricksCount = building2 * 1000;
     }
     else if(floor >=20){
         building3 = floor * 10;
-        var bricksCount =building3 * 1000;
+        var bricksCount = building3 * 1000;
     }
     return bricksCount;
 }
