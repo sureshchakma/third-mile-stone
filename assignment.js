@@ -28,19 +28,19 @@ console.log(totalQubitWood);
 function brickCalculator(floor){
     
     if(floor <=10){
-        var feet1= floor * 15;
-        var bricks=feet1 * 1000;
+        var building1= floor * 15;
+        var bricksCount=building1 * 1000;
     }
 
     else if(floor <=20){
-        var feet2 =floor * 12;
-        var bricks =feet2 * 1000;
+        var building2 =floor * 12;
+        var bricksCount =building2 * 1000;
     }
     else if(floor >=20){
-        feet3 = floor * 10;
-        var bricks =feet3 * 1000;
+        building3 = floor * 10;
+        var bricksCount =building3 * 1000;
     }
-    return bricks;
+    return bricksCount;
 }
 var output =brickCalculator(10);
 
